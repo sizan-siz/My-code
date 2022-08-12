@@ -7,7 +7,7 @@ int main()
     cin>>num;
     for(i=2;i<=num;i++)
     {
-        for( j=2;j<=i;j++)
+        for( j=2;j<=i-1;j++)
         {
             if(i%j==0)
             {
