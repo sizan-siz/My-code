@@ -11,13 +11,14 @@ int main()
         if(num%i==0)
         {
             flag++;
+            break;
         }
     }
-    if(flag==0)
+    if(flag!=0 || num==1 || num==0)
     {
-        cout<<num<<" is a prime number:\n";
+        cout<<num<<" is not prime number:\n";
     }
     else{
-        cout<<num<<" is not a prime number:\n";
+        cout<<num<<" is  a prime number:\n";
     }
 }
